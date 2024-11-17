@@ -1,0 +1,124 @@
+/* Login container */
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 98vh; /* Ensure full viewport height */
+  /* background-image: url("../../assets/bgg-img.jpeg");  */
+  background-image: url("../../assets/clg-bg.png"); /* Replace with your image path */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; /* Center background image */
+  position: relative; /* Required for background tint */
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+/* Background tint (optional) */
+.login::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* Adjust opacity for desired tint */
+}
+
+
+.login-ribbon {
+  align-items: baseline;
+  margin-top: 50px;
+}
+
+.login-btn {
+  margin-top: 10px;
+  z-index: 100;
+  
+}
+
+
+/* button css */
+
+.glow-on-hover {
+  width: 240px;
+  height: 60px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  size: 20px;
+  align-items: center;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+
+/* moving content css */
+
+/* Login text */
+.login-text {
+  margin-top: 170px;
+  size: 400px;
+  color: black; /* Assuming white text for better contrast */
+}
+
+.login-text p {
+  font-size: 50px;
+  margin-top: 45px;
+}
+
+.login-btn{
+margin-top: 75px;
+}

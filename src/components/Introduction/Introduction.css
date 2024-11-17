@@ -1,0 +1,130 @@
+.info {
+    width: auto;
+    height: 300px;
+    margin: 120px 80px 100px 100px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between items */
+    text-wrap: wrap;
+    border: none; 
+  }
+
+  .infodiv {
+    color: #ffcc99;
+    background-color: #663300;
+  }
+
+  .infodiv2 {
+    color: #663300;
+    background-color: #ffcc99;
+  }
+
+  .infodiv3 {
+    background-color: #663300;
+  } 
+
+  .about {
+    color: #663300;
+    background-color: #ffcc99;
+    padding-bottom: 60px;
+  }
+
+  .info2 {
+    width: auto;
+    height: 300px;
+    margin: 100px 80px 100px 100px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between items */
+    text-wrap: wrap;
+    border: none;
+    color :#663300;
+  }
+
+  .info3 {
+    width: auto;
+    height: 300px;
+    margin: 100px 80px 100px 100px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between items */
+    text-wrap: wrap;
+    border: none;
+    color :#ffcc99;
+  }
+
+  .topic {
+    padding-top: 100px;
+    color: #663300;
+    text-align: center;
+  }
+
+  .subtopic {
+    padding-top: 20px;
+    text-align: center;
+    color: #663300;
+    font-size: 35px;
+    margin: 20px;
+  }
+  
+  .info p {
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    flex-direction: row;
+
+  }
+
+  .info2 p {
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+    text-align: center;
+    flex-direction: row;
+
+  }
+
+  .info3 p {
+    margin-right: 70px;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    flex-direction: row;
+
+  }
+
+  .content {
+    width: 1/2;
+  }
+
+  .content h2{
+    text-align: center;
+  }
+  
+  .info img {
+    margin: 0 10px; /* Margin from left and right */
+    border: none; /* Remove borders */
+    border-radius: 18px; /* Smooth the corners of the image */
+    flex-direction: row;
+    width: 1/2;
+  }
+
+  .info2 img {
+    margin: 0 10px; /* Margin from left and right */
+    border: none; /* Remove borders */
+    border-radius: 18px; /* Smooth the corners of the image */
+    flex-direction: row;
+    width: 500px;
+  }
+
+  .info3 img {
+    margin: 0 10px; /* Margin from left and right */
+    border: none; /* Remove borders */
+    border-radius: 18px; /* Smooth the corners of the image */
+    flex-direction: row;
+    width: 1/2;
+  }
+
+  

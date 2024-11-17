@@ -1,0 +1,87 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../assets/clg-img.jpeg');
+
+    align-items: flex-end; /* Aligns items to the top of the container */
+    height: 100vh; /* Adjust as needed */
+}
+
+.image-container{
+    height: 100px;
+    width: 100px ;
+}
+
+.faq{
+    display: flex;
+    flex-direction: row ;
+}
+
+.image-container {
+    width: 100%;
+    align-items: center;
+    height: 400px;
+}
+
+.faq-container {
+    flex: 1 1 60%;
+    padding: 10px;
+     width: 800px ;   /* this can change the size of the faq question bar */
+    margin-top: 40px;
+    overflow-y: auto;
+}
+
+.faq-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 50px;
+}
+
+.faq-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    background-color: #c59696;
+    padding: 15px 20px;
+    color: black ;
+
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+    width: 100%;
+    text-align: left;
+    font-size: large;
+    font: bold;
+    height: auto;
+}
+
+.faq-question:hover {
+    background-color: #9085ec;
+}
+
+.faq-answer {
+    padding: 15px 20px;
+    background-color: white;
+    border: 3px solid #ddd;
+    color: rgb(19, 16, 16);
+    border-radius: 5px;
+    transition: max-height 0.5s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    display: none;
+    font-size: large; 
+}
+
+.faq-answer.active {
+    max-height: max-content; /* Adjust this value as needed */
+    display: block;
+}

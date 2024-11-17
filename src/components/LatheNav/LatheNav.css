@@ -1,0 +1,58 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly; /* Evenly distribute items */
+  background-color: #663300; /* Optional background color */
+  padding: 10px 20px;
+}
+ 
+.nav-list {
+  display: flex;
+  list-style: none; /* Remove default bullet points */
+  margin: 0; /* Remove default margin */
+}
+
+.nav-item {
+  margin-right: 10px; 
+}
+
+.nav-link {
+  text-decoration: none ; /* Remove underline from links */
+  color: #dbb490 ;
+  padding: 10px 15px ;
+}
+
+.nav-link:hover {
+  background-color: #d57e27;
+  color: white; /* Optional hover effect */
+}
+
+.dropdown-menu {
+  display: none; /* Hide dropdown menus initially */
+  position: absolute; /* Position dropdown below the link */
+  background-color: #e9d2bd ;
+  border-radius: 5px; /* Optional rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  list-style: none;
+  padding: 0.5rem;
+  border: #ffcc99;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block; /* Show dropdown menu on hover */
+}
+
+.dropdown-menu li {
+  margin-bottom: 10px; /* Optional spacing between menu items */
+}
+
+.dropdown-menu a:hover {
+  background-color: #d57e27;
+  color: white;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  color: #663300;
+  display: block; /* Make menu items take full width */
+  padding: 5px 10px;
+}

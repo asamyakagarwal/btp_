@@ -1,0 +1,61 @@
+/* Home.css */
+
+/* .home-container {
+    background-image: url('../../assets/backImage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    position: relative;
+  } */
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay for the blur effect */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffcc99;
+  }
+  
+  .quote {
+    font-size: 4rem;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .additional-content {
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  
+  .info {
+      display: flex;
+      align-items: center;
+      width: 60%;
+      height: 30vh;
+      border: 2px solid black;
+  }
+  
+  .info p {
+      flex: 0 0 60%; /* 60% of the container width */
+      margin: 0;
+  }
+  
+  .info img {
+      flex: 0 0 40%; /* 40% of the container width */
+      margin: 0;
+      max-height: 100%;
+  }
+  
+  .information {
+    font-size: 40px; /* Adjust the font size as needed */
+  }
+  

@@ -1,0 +1,59 @@
+.typesoflathe {
+    margin: 0 auto;
+    background-color: #ffcc99;
+    color: #663300;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .type1 {
+    display: flex;
+    align-items: center;
+    background-color: #663300;
+    color: #ffcc99;
+  }
+
+  .type {
+    display: flex;
+    align-items: center;
+    background-color: #ffcc99;
+    color: #663300;
+  }
+
+  .description1 {
+    flex: 1;
+    padding: 0 20px; /* Adjust spacing as needed */ /* Set text color */
+  }
+   
+  .description1 h1 {
+    margin-top: 10px;
+  }
+
+  .description h1 {
+    margin-top: 10px;
+  }
+
+  .speed {
+    display: flex;
+    padding-bottom: 10px;
+  }
+  
+  .speed p{
+    padding: 50px;
+  }
+
+  .description {
+    flex: 1;
+    padding: 0 20px; /* Adjust spacing as needed */
+    color: #663300; /* Set text color */
+  }
+  
+  .description img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .description p {
+    margin: 0; /* Remove default margin */
+    padding-left: 20px; /* Add spacing between text and images */
+  }

@@ -1,0 +1,9 @@
+.information {
+    font-size: 40px;
+    margin: auto;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    flex-direction: column; /* Stack items vertically */
+  }
+  
