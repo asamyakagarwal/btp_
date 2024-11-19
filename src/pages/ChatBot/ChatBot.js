@@ -11,13 +11,11 @@ const ChatBot = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   // gpt wale
-//   const API_URL = "https://api.openai.com/v1/chat/completions";
-//   const API_KEY = "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";
+  const API_URL = "https://api.openai.com/v1/chat/completions";
+  const API_KEY = "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";
 
 
-// lamma walae
-  const API_URL = "https://api.llama-api.com/chat/completions";
-  const API_KEY = "LA-3a09ecdf21e941e7a854c304f0717205d1d9f4ed053549c5a4137318f8f63d35";
+ 
 
   const appendMessage = (sender, message) => {
     setMessages(prevMessages => [...prevMessages, { sender, text: message }]);
