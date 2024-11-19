@@ -11,6 +11,14 @@
   text-align: center;
   color: #663300;
 }
+
+.copyright {
+  margin-top: 5px ;
+}
+
+.photos{
+  margin-right: 15px;
+}
   
 .footer-content {
   max-width: 1200px;

@@ -49,6 +49,7 @@ const Navbar = () => {
         <Link to="/news">News</Link>
         <Link to="/expert">FAQ's</Link>
         <Link to="/contact-page">FeedBack</Link>
+        <Link to="/chatbot">Chat-Bot</Link>
 
         <Link to="/calculator">Calculator</Link>
          

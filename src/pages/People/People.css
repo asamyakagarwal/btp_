@@ -1,0 +1,101 @@
+
+  .team-page {
+    font-family: Arial, sans-serif;
+  }
+
+  .topic{
+    margin-bottom: 20px;
+    color: white;
+    font-size: xx-large;
+  }
+  
+  .container {
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .team-container__box {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 15px;
+  }
+  
+  .peopleImg img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .description h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .description p {
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .book-banner {
+    background: #333;
+    color: white;
+    position: relative;
+    padding: 50px 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .book-banner__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .book-banner .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .book-banner .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .book-banner .text-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .book-banner .text-content span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .book-banner .text-content span h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
